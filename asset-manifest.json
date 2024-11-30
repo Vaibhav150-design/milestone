@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/milestone/static/css/main.9b0abef9.css",
+    "main.js": "/milestone/static/js/main.5a80cdbd.js",
+    "static/js/453.2cecc6e0.chunk.js": "/milestone/static/js/453.2cecc6e0.chunk.js",
+    "static/media/pasta.jpg": "/milestone/static/media/pasta.2c1c24f0dd02fde42a5b.jpg",
+    "static/media/sushi.jpg": "/milestone/static/media/sushi.1e61b7d157ffe9661c74.jpg",
+    "static/media/salad.jpg": "/milestone/static/media/salad.b040cfae035583889454.jpg",
+    "static/media/burger.jpg": "/milestone/static/media/burger.f824ebe71e707cfc8fab.jpg",
+    "static/media/pizza.jpg": "/milestone/static/media/pizza.4fe3947dfca1f333afaf.jpg",
+    "static/media/tacos.jpeg": "/milestone/static/media/tacos.d39c29a87008a6dced56.jpeg",
+    "static/media/fries.jpeg": "/milestone/static/media/fries.c7fbb4d08f433b4bffad.jpeg",
+    "static/media/sandwich.jpeg": "/milestone/static/media/sandwich.d5a7476d00c7d3aac462.jpeg",
+    "index.html": "/milestone/index.html",
+    "main.9b0abef9.css.map": "/milestone/static/css/main.9b0abef9.css.map",
+    "main.5a80cdbd.js.map": "/milestone/static/js/main.5a80cdbd.js.map",
+    "453.2cecc6e0.chunk.js.map": "/milestone/static/js/453.2cecc6e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b0abef9.css",
+    "static/js/main.5a80cdbd.js"
+  ]
+}
