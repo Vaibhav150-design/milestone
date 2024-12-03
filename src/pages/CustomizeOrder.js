@@ -8,7 +8,6 @@ const CustomizeOrder = () => {
   const navigate = useNavigate();
   const { addToCart } = useCart();
   
-  // Get the item details passed from Home page
   const item = location.state;
 
   const [customization, setCustomization] = useState({
@@ -17,7 +16,6 @@ const CustomizeOrder = () => {
     extraCheese: false,
   });
 
-  // Handle change in customization
   const handleCustomizationChange = (e) => {
     const { name, value, type, checked } = e.target;
     setCustomization((prevCustomization) => ({
@@ -26,14 +24,13 @@ const CustomizeOrder = () => {
     }));
   };
 
-  // Add item to cart and navigate to cart page
   const handleProceedToCart = () => {
     const updatedItem = {
       ...item,
       customization,
     };
     addToCart(updatedItem);
-    navigate("/cart"); // Redirect to Cart page
+    navigate("/cart"); 
   };
 
   return (

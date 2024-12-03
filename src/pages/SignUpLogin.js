@@ -1,4 +1,4 @@
-// src/pages/SignUpLogin.js
+
 import React from "react";
 
 const SignUpLogin = () => {

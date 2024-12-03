@@ -1,10 +1,8 @@
-// src/pages/Menu.js
 import React, { useContext } from "react";
 import { CartContext } from "../CartContext";
 import MenuItem from "../components/MenuItem";
 import "./Menu.css";
 
-// Import images
 import pizza from "../assets/pizza.jpg";
 import burger from "../assets/burger.jpg";
 import pasta from "../assets/pasta.jpg";
@@ -17,7 +15,6 @@ import tacos from "../assets/tacos.jpeg";
 const Menu = () => {
   const { addToCart } = useContext(CartContext);
 
-  // Update menuItems to use imported image variables
   const menuItems = [
     { id: 1, name: "Pizza", description: "Cheese pizza with toppings", price: 100, image: pizza },
     { id: 2, name: "Burger", description: "Juicy beef burger", price: 70, image: burger },

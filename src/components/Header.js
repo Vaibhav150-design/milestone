@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo">
-        <h1>Food Delivery</h1>
+        <h1>Food Paradise</h1>
       </div>
       <nav className={`nav-links ${isMenuOpen ? "open" : ""}`}>
         <Link to="/" className={location.pathname === "/" ? "active" : ""}>Home</Link>

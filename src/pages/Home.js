@@ -34,7 +34,7 @@ const Home = () => {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
-        <h1>Welcome to Food Delivery</h1>
+        <h1>Welcome to Food Paradise</h1>
         <h2 className="dynamic-tagline">{taglines[taglineIndex]}</h2>
         <Link to="/menu" className="cta-button">Browse Menu</Link>
       </section>
@@ -60,15 +60,15 @@ const Home = () => {
         <div className="testimonial-cards">
           <div className="testimonial-card">
             <p>"The food is amazing and always arrives on time!"</p>
-            <p>- Sarah K.</p>
+            <p>- ROSE MARIA</p>
           </div>
           <div className="testimonial-card">
             <p>"Love the variety and quality of the menu items."</p>
-            <p>- John D.</p>
+            <p>- SUMANGALA </p>
           </div>
           <div className="testimonial-card">
             <p>"Excellent service and delicious food every time."</p>
-            <p>- Emma R.</p>
+            <p>- VAIBHAV</p>
           </div>
         </div>
       </section>
